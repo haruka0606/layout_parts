@@ -2,4 +2,37 @@
 
 /* 回答はここに書いてね */
 
+.q12 {
+    margin: 0 auto;
+    width: 500px;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 16px;
+    border: 5px solid #222;
+    border-radius: 30px;
+    position: relative;
+}
+
+.q12:before {
+    bottom: -45px;
+    left: 30px;
+    border-color: #222 transparent transparent;
+}
+
+.q12:after {
+    bottom: -38px;
+    left: 30px;
+    border-color: #fff transparent transparent;
+}
+
+.q12:before,
+.q12:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 20px;
+    border-style: solid;
+}
+
 /* 回答はここに書いてね */
