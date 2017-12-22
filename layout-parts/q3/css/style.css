@@ -2,4 +2,40 @@
 
 /* 回答はここに書いてね */
 
+.contents {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.contents, th, td {
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+    border: solid #dedede 1px;
+}
+
+.contents th {
+    font-size: 18px;
+    line-height: 26px;
+    background-color: #2244aa;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.contents td {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.contents > tbody > tr:nth-child(even) {
+    background-color: #ecf1f2;
+}
+
+.contents > tbody > tr:last-child {
+    border-top: dashed #000 2px;
+}
+
 /* 回答はここに書いてね */
