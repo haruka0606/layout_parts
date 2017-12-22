@@ -14,29 +14,29 @@
   text-align: center;
 }
 
-.is__1 {
+.is__orange {
   width: 100px;
   background-color: #fdc8b8;
 }
 
-.is__2 {
+.is__pink {
   background-color: #e0abd9;
 }
 
-.is__3 {
+.is__skyblue {
   width: 100px;
   background-color: #b6d8ed;
 }
 
-.is__4 {
+.is__dark-yellow {
   background-color: #e5d32e;
 }
 
-.is__5 {
+.is__light-yellow {
   background-color: #e4e67c;
 }
 
-.is__6 {
+.is__green {
   background-color: #8fdcad;
   width: 500px;
 }

@@ -2,19 +2,18 @@
 
 /* 回答はここに書いてね */
 
-
 .q9 {
   padding: 20px;
   background-color: #ecf1f2;
 }
 
-div:not( :first-child) {
-  margin-top: 10px;
+.q9__grid {
+  margin: 20px -10px 0px;
+  font-size: 0px;
 }
 
-.q9__grid {
-  margin: 0 -5px;
-  font-size: 0px;
+.q9__grid:first-child {
+  margin-top: 0px;
 }
 
 .q9__grid__12 {

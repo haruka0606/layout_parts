@@ -2,10 +2,9 @@
 
 /* 回答はここに書いてね */
 
-
 .contents {
   margin: 0 auto;
-  width: auto;
+  width: 900px;
   background-color: #eff3f4;
   padding: 20px;
   box-sizing: content-box;

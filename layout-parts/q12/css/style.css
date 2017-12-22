@@ -2,7 +2,7 @@
 
 /* 回答はここに書いてね */
 
-.q12 {
+.speech-baloon {
     margin: 0 auto;
     width: 500px;
     padding: 20px;
@@ -13,20 +13,20 @@
     position: relative;
 }
 
-.q12:before {
+.speech-baloon:before {
     bottom: -45px;
     left: 30px;
     border-color: #222 transparent transparent;
 }
 
-.q12:after {
+.speech-baloon:after {
     bottom: -38px;
     left: 30px;
     border-color: #fff transparent transparent;
 }
 
-.q12:before,
-.q12:after {
+.speech-baloon:before,
+.speech-baloon:after {
     content: "";
     position: absolute;
     width: 0;
